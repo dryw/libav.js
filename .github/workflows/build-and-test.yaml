@@ -1,6 +1,6 @@
 name: build-and-test
 run-name: Build and test ${{ github.sha }}
-on: [push]
+on: workflow_dispatch
 jobs:
   build:
     # This should be ubuntu-latest, but as of 2023-10-06ish, it has problems
